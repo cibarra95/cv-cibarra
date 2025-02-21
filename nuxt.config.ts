@@ -25,12 +25,6 @@ export default defineNuxtConfig({
     'nuxt-og-image',
   ],
   css: ['~/assets/css/main.css'],
-  image: {
-    provider: 'imagekit',
-    imagekit: {
-      baseURL: 'https://ik.imagekit.io/alfredom',
-    },
-  },
   i18n: {
     lazy: true,
     langDir: 'locales',
