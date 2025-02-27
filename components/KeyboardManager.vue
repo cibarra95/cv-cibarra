@@ -6,20 +6,25 @@ defineOptions({
   name: 'KeyboardManager',
 });
 
-defineShortcuts({
-  meta_k: () => {
-    isOpen.value = !isOpen.value
-  }
-})
-
 const { locales, setLocale, t } = useI18n();
 
 const commandPaletteRef = ref();
 const isOpen = ref(false);
 
-const modalUi = {
-  overlay: 'flex min-h-full items-center justify-center text-center',
-};
+defineShortcuts({
+  meta_k: {
+    handler: () => {
+      console.log('meta_k');
+      onOpenCommandPalette();
+    },
+  },
+  escape: {
+    usingInput: true,
+    handler: () => {
+      isOpen.value = false;
+    },
+  },
+});
 
 const languages = locales.value.map((locale: LocaleObject) => ({
   id: locale.code,
@@ -69,23 +74,12 @@ function setLanguage(locale: LocaleObject) {
 }
 
 function onOpenCommandPalette() {
+  console.log('onOpenCommandPalette', isOpen.value);
   isOpen.value = true;
+  nextTick(() => {
+    commandPaletteRef.value?.focus(); // Asegurar que el modal recibe foco
+  });
 }
-
-defineShortcuts({
-  meta_k: {
-    handler: () => {
-      console.log('meta_k');
-     onOpenCommandPalette();
-    },
-  },
-  escape: {
-    usingInput: true,
-    handler: () => {
-      isOpen.value = false;
-    },
-  },
-});
 </script>
 
 <template>
@@ -94,7 +88,7 @@ defineShortcuts({
       class="fixed right-0 bottom-0 left-0 hidden print:hidden border-t border-t-gray-200 bg-gray-50 p-1 text-center dark:border-t-neutral-700 dark:bg-neutral-800 lg:block"
     >
       <Translation
-        class="text-sm text-gray-500 dark:text-gray-400"
+        class="text-sm text-gray-500 dark:text-gray-400 "
         keypath="keyboardManager.text"
         tag="p"
         scope="global"
@@ -102,29 +96,17 @@ defineShortcuts({
         <UKbd value="meta"/>
       </Translation>
     </div>
-<!--    <UModal v-model="isOpen" :ui="modalUi">-->
-<!--      <UCommandPalette-->
-<!--        ref="commandPaletteRef"-->
-<!--        :groups="groups"-->
-<!--        :autoselect="false"-->
-<!--        :placeholder="t('keyboardManager.commandPalette.placeholder')"-->
-<!--        :autofocus="false"-->
-<!--        @update:model-value="onSelect"-->
-<!--      />-->
-<!--    </UModal>-->
-
-
     <UModal v-model="isOpen">
       <UButton
           color="primary"
           variant="solid"
           size="lg"
-          class="fixed right-4 bottom-4 flex lg:hidden rounded-full print:hidden"
+          class="fixed right-4 bottom-4 flex lg:hidden rounded-full print:hidden bg-gray-300 hover:bg-gray-400 hover:text-gray-500 dark:bg-gray-500 dark:hover:bg-gray-400 dark:text-gray-300"
           @click="onOpenCommandPalette"
       >
         <template #leading>
           <UIcon
-              class="h-5 w-5 text-gray-500 dark:text-gray-400"
+              class="h-5 w-5 text-gray-500 dark:text-gray-300 "
               name="i-ph-command-duotone"
           />
         </template>

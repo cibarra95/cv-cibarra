@@ -9,7 +9,7 @@ const socialLinks = [
   {
     id: 'email',
     icon: 'ph-envelope-simple-duotone',
-    to: 'mailto:cibarra.consultoria@gmail.com',
+    to: 'mailto:hello@cibarra.dev',
   },
   {
     id: 'phone',
@@ -35,16 +35,16 @@ const socialLinks = [
 </script>
 
 <template>
-  <div class="flex items-center justify-between">
-    <div class="flex-1 space-y-1.5">
+  <div class="grid lg:grid-cols-2 gap-4">
+    <div class="flex-1 space-y-1.5 order-2 lg:order-1">
       <h1 class="text-2xl font-bold">César Ibarra</h1>
       <p
-        class="max-w-md font-mono text-sm text-gray-500 text-pretty dark:text-gray-400"
+        class="max-w-md font-mono text-sm text-gray-500 text-pretty dark:text-gray-400 text-justify"
       >
         {{ t('intro.summary') }}
       </p>
       <p
-        class="max-w-md items-center font-mono text-xs text-gray-500 text-pretty dark:text-gray-400"
+        class="my-4 max-w-md items-center font-mono text-xs text-gray-500 text-pretty dark:text-gray-400"
       >
         <ULink
           class="inline-flex items-center leading-none hover:underline"
@@ -77,18 +77,17 @@ const socialLinks = [
           </template>
         </UButton>
       </div>
+    </div>
+    <div class="w-full">
       <div
-        class="print:flex hidden flex-col gap-x-1 font-mono text-sm text-gray-500 dark:text-gray-400"
+          class="relative print:hidden flex shrink overflow-hidden rounded-xl size-28 order-1 lg:order-2 mx-auto"
       >
-        <span class="underline">cibarra.consultoria@gmail.com</span>
-        <span class="underline"> +524773677299 </span>
+        <NuxtImg
+            src="https://media.licdn.com/dms/image/v2/C4E03AQHgexMDzm6cPg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1576527463302?e=1745452800&v=beta&t=-59nOFNJnEm6Z_-EscP3coRzr1GYa27FxC2vE9iyuVg"
+            alt="César Ibarra"
+        />
       </div>
     </div>
-    <span
-      class="relative print:hidden flex shrink-0 overflow-hidden rounded-xl size-28"
-    >
-      <NuxtImg src="https://media.licdn.com/dms/image/v2/C4E03AQHgexMDzm6cPg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1576527463302?e=1745452800&v=beta&t=-59nOFNJnEm6Z_-EscP3coRzr1GYa27FxC2vE9iyuVg" alt="César Ibarra" />
-    </span>
   </div>
 </template>
 

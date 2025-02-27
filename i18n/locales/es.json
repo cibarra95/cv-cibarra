@@ -2,67 +2,87 @@
   "common": {
     "label": {
       "remote": "Remoto",
+      "office": "En oficina",
       "mexico": "México"
     }
   },
   "seo": {
-    "title": "Mi CV {'|'} César Ibarra - FrontEnd Engineer",
+    "title": "Mi CV {'|'} César Ibarra - FrontEnd Developer",
     "description": "Un CV digital"
   },
   "intro": {
-    "summary": "Ingeniero FrontEnd apasionado por la experiencia del usuario y el desarrollo ágil."
+    "summary": "Desarrollador de software adaptable y apasionado por la tecnología, con experiencia en frontend y fullstack. Especialista en SCRUM, interfaces intuitivas y optimización UX. Analítico y resolutivo, enfocado en crear soluciones innovadoras y eficientes para el desarrollo digital."
+
   },
   "about": {
     "title": "Resumen",
-    "text": "Ingeniero Frontend con amplia experiencia en el desarrollo de productos desde cero y liderazgo de equipos en entornos colaborativos. Especializado en TypeScript, Vue, Nuxt, TailwindCSS, Node.js y Laravel, impulsando soluciones eficientes y escalables. Con 3 años de experiencia en trabajo remoto, he colaborado con empresas globales, fomentando entornos de equipo productivos y orientados a la excelencia."
+    "text": "Soy un desarrollador frontend senior con amplia experiencia en tecnologías como Vue.js, React, Nuxt.js y Tailwind CSS, así como en desarrollo fullstack utilizando TypeScript, GraphQL y Laravel. Mi trayectoria profesional se ha centrado en la creación de interfaces intuitivas y optimizadas, la implementación de pruebas automatizadas con Cypress, Vitest y Jest, y la adopción de metodologías ágiles como SCRUM para garantizar la eficiencia en el desarrollo de software.",
+    "skills": "Me caracterizo por ser una persona analítica, adaptable y con una fuerte vocación por la enseñanza, el trabajo en equipo y la resolución de problemas. Mi objetivo es continuar creciendo en el ámbito del desarrollo tecnológico, aportando soluciones innovadoras y eficientes que contribuyan al éxito de los proyectos en los que participo."
   },
   "workExperience": {
     "title": "Experiencia Laboral",
     "works": {
       "topfluenz": {
-        "description": "Desarrollo e implementación de interfaces UX/UI basadas en Figma con Vue.js, TypeScript y Tailwind CSS. Integración de APIs GraphQL con Vue Apollo y pruebas automatizadas con Cypress y Vitest. Creación de Landing Pages en Nuxt 3 y trabajo en entornos ágiles con SCRUM."
+        "description": "Desarrollo e implementación de interfaces UX/UI basadas en Figma con Vue.js, Vite, TypeScript y Tailwind CSS. Integración de APIs GraphQL con Vue Apollo y pruebas automatizadas con Cypress y Vitest. Creación de Landing Pages en Nuxt 3 y trabajo en entornos ágiles con SCRUM."
       },
       "premo": {
-        "description": "Líder de un equipo de 3 desarrolladores, participé en la migración de un proyecto monolito a un MVC y en el diseño de un core personalizado para reutilizar componentes y código. Tecnologías: Nuxt 3, TypeScript, Pinia, Cypress, Vitest, Nitro"
+        "description": "Líder de un equipo de 3 desarrolladores, participé en la migración de un proyecto monolito a un MVC y en el diseño de un core personalizado para reutilizar componentes y código. Tecnologías: Nuxt 3, TypeScript, Pinia, Cypress, Vitest, Nitro, Fetch Api, Tailwind CSS, Vite"
       },
       "devsalsa": {
-        "description": "Desarrollo de una plataforma de contenido UGC multi idioma, mejoras en el sitio web principal para que funcione en todos los navegadores. Tecnologías: Vue, Pinia, TailwindCSS, Cypress, Vitest"
+        "description": "Desarrollo de una plataforma de contenido UGC multi idioma, mejoras en el sitio web principal para que funcione en todos los navegadores. Tecnologías: Vue, Pinia, Tailwind CSS, Cypress, Vitest, Vite, Astro"
       }
     },
     "time": {
       "topfluenz": {
-        "lapse": "2024 - Actual"
+        "lapse": "01/2024 - Actual"
       }
     }
   },
   "education": {
     "title": "Educación",
     "school": "INESDI Business School",
-    "career": "Máster en Full Stack Web Development"
+    "career": "Máster en Full Stack Web Development",
+    "schoolTwo": "Universidad Iberoamericana León",
+    "careerTwo": "Ingeniería Mecatrónica",
+    "course": "Cursos",
+    "courseName": "Master en Coding",
+    "schoolThree": "DEV.F"
   },
   "skills": {
     "title": "Habilidades"
   },
   "languages": {
-    "title": "Idiomas"
+    "title": "Idiomas",
+    "spanish": "Español",
+    "english": "Inglés",
+    "spanishLevel": "Nativo",
+    "englishLevel": "Intermedio"
   },
   "strengths": {
     "title": "Competencias",
     "technicalSkills": {
-      "title": "Habilidades técnicas",
-      "description": "Competente en tecnología moderna"
+      "title": "Aprendizaje autodidacta",
+      "description": "Habilidad para adquirir nuevos conocimientos de forma independiente, adaptándose a cambios tecnológicos y metodológicos."
     },
     "communicationSkills": {
-      "title": "Habilidades de comunicación",
-      "description": "Capacidad para articular problemas técnicos."
+      "title": "Habilidades de comunicación afectiva",
+      "description": "Capacidad para comunicar ideas de manera clara y concisa."
     },
     "entrepreneurialSpirit": {
-      "title": "Espíritu de líder",
-      "description": "Dispuesto a asumir los riesgos de un extremo a otro"
+      "title": "Liderazgo",
+      "description": "Capacidad para motivar, organizar y guiar equipos hacia el cumplimiento de objetivos con eficiencia y compromiso."
     },
     "teamWork": {
       "title": "Trabajo en equipo",
-      "description": "Capacidad para colaborar eficazmente con otros para lograr objetivos comunes"
+      "description": "Capacidad para colaborar eficazmente con diferentes perfiles profesionales, fomentando un ambiente de cooperación y comunicación."
+    },
+    "problemSolving": {
+      "title": "Resolución de problemas",
+      "description": "Capacidad para identificar y resolver problemas de manera efectiva, utilizando metodologías ágiles y técnicas de resolución de problemas."
+    },
+    "knowledgeTransfer": {
+      "title": "Pasión por la enseñanza",
+      "description": "Gusto por compartir conocimientos, capacitar a otros y fomentar el desarrollo profesional dentro de un equipo o comunidad."
     }
   },
   "keyboardManager": {
@@ -79,5 +99,5 @@
         }
       }
     }
-  }
+  },
 }

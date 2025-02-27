@@ -1,8 +1,29 @@
+<script setup lang="ts">
+const { t } = useI18n();
+const head = useLocaleHead({
+  addDirAttribute: true,
+  identifierAttribute: 'id',
+  addSeoAttributes: true,
+});
+
+useSeoMeta({
+  title: t('seo.title'),
+  ogTitle: t('seo.title'),
+  description: t('seo.description'),
+  ogDescription: t('seo.description'),
+});
+
+defineOgImageComponent('CustomTemplate', {
+  title: t('seo.title'),
+  description: t('seo.description'),
+});
+</script>
+
 <template>
   <UApp>
-    <Html :lang="head.htmlAttrs.lang" :dir="head.htmlAttrs.dir">
+    <Html >
     <Head>
-      <Title>{{ $t('seo.title') }}</Title>
+      <Title>{{ t('seo.title') }}</Title>
       <template v-for="link in head.link" :key="link.id">
         <Link
             :id="link.id"
@@ -36,23 +57,3 @@
     </Html>
   </UApp>
 </template>
-<script setup lang="ts">
-const { t } = useI18n();
-const head = useLocaleHead({
-  addDirAttribute: true,
-  identifierAttribute: 'id',
-  addSeoAttributes: true,
-});
-
-useSeoMeta({
-  title: t('seo.title'),
-  ogTitle: t('seo.title'),
-  description: t('seo.description'),
-  ogDescription: t('seo.description'),
-});
-
-defineOgImageComponent('CustomTemplate', {
-  title: t('seo.title'),
-  description: t('seo.description'),
-});
-</script>

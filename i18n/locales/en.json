@@ -2,76 +2,86 @@
   "common": {
     "label": {
       "remote": "Remote",
+      "office": "On-site",
       "mexico": "Mexico"
     }
   },
   "seo": {
-    "title": "My CV {'|'} Alfredo Martínez - FrontEnd Engineer",
-    "description": "A print-friendly, minimalist CV page"
+    "title": "My CV {'|'} César Ibarra - FrontEnd Developer",
+    "description": "A digital CV"
   },
   "intro": {
-    "summary": "FrontEnd Engineer focused on creating stunning digital products"
+    "summary": "Adaptable and technology-driven software developer with experience in frontend and fullstack development. Specialist in SCRUM, intuitive interfaces, and UX optimization. Analytical and problem-solving oriented, focused on creating innovative and efficient solutions for digital development."
   },
   "about": {
-    "title": "About",
-    "text": "My journey as a FrontEnd Engineer has been marked by multiple successful transitions of products from the ground up. By leading teams effectively, I ensure a workspace where teams can flourish, adding to our collective ability to craft stunning products. Currently, I work mostly with TypeScript, Vue, Nuxt,TailwindCSS, Node.js, and Laravel. For over 7 years, I have been immersed in remote collaborations with companies around the world."
+    "title": "Summary",
+    "text": "I am a senior frontend developer with extensive experience in technologies such as Vue.js, React, Nuxt.js, and Tailwind CSS, as well as fullstack development using TypeScript, GraphQL, and Laravel. My professional career has been focused on creating intuitive and optimized interfaces, implementing automated testing with Cypress, Vitest, and Jest, and adopting agile methodologies like SCRUM to ensure efficiency in software development.",
+    "skills": "I am known for being an analytical, adaptable person with a strong passion for teaching, teamwork, and problem-solving. My goal is to continue growing in the field of technological development, providing innovative and efficient solutions that contribute to the success of the projects I participate in."
   },
   "workExperience": {
     "title": "Work Experience",
     "works": {
-      "pemex": {
-        "description": "Development and implementation of an internal platform for the management and administration of contracts and business processes. Technologies: Vue 3, Nuxt 3, TanStack Query, Vuetify, .NET\""
+      "topfluenz": {
+        "description": "Development and implementation of UX/UI interfaces based on Figma using Vue.js, Vite, TypeScript, and Tailwind CSS. Integration of GraphQL APIs with Vue Apollo and automated testing with Cypress and Vitest. Creation of Landing Pages in Nuxt 3 and work in agile environments using SCRUM."
+      },
+      "premo": {
+        "description": "Led a team of 3 developers, participated in migrating a monolithic project to an MVC, and designed a custom core for component and code reuse. Technologies: Nuxt 3, TypeScript, Pinia, Cypress, Vitest, Nitro, Fetch API, Tailwind CSS, Vite."
       },
       "devsalsa": {
-        "description": "Led 4 developers team, migrate from webpack to vite, crafted custom core to ship the same code and components to all platforms, implemented new features. Technologies: Vue 3, TypeScript, Pinia, Cypress, Vitest"
-      },
-      "apithy": {
-        "description": "Created a multilingual E-Learning platform with payment processing, worked on improving the main website so that it works in all browsers. Technologies: Vue, Nuxt, Vuex, TailwindCSS"
-      },
-      "vocces": {
-        "description": "Created a multilingual SaaS (articketing). Started with the boilerplate, implemented new features with mobile first approach. Technologies: Vue, JavaScript, SASS, Laravel"
-      },
-      "freelance": {
-        "description": "In my role as a freelancer, I facilitated small businesses' digital transition by implementing SEO-optimized websites, e-commerce, and SaaS, thereby augmenting their online market presence. Technologies: Vue, Nuxt, TailwindCSS, Laravel, PHP"
-      },
-      "bicho": {
-        "description": "I dedicated myself to the analysis and application of design principles to materialize the proposals of the UX/UI team. I have developed user interactions and managed data communication with the back-end server, to ensure an optimal user experience on the web platform. Technologies: WordPress, CSS, Laravel, PHP"
+        "description": "Development of a multilingual UGC content platform, improvements to the main website to ensure compatibility across all browsers. Technologies: Vue, Pinia, Tailwind CSS, Cypress, Vitest, Vite, Astro."
       }
     },
     "time": {
-      "pemex": {
-        "lapse": "2024 - Current"
+      "topfluenz": {
+        "lapse": "01/2024 - Present"
       }
     }
   },
   "education": {
     "title": "Education",
-    "school": "EPCA University",
-    "career": "Degree in Computer Systems Engineering"
+    "school": "INESDI Business School",
+    "career": "Master’s in Full Stack Web Development",
+    "schoolTwo": "Universidad Iberoamericana León",
+    "careerTwo": "Mechatronics Engineering",
+    "course": "Courses",
+    "courseName": "Master in Coding",
+    "schoolThree": "DEV.F"
   },
   "skills": {
     "title": "Skills"
   },
   "languages": {
-    "title": "Languages"
+    "title": "Languages",
+    "spanish": "Spanish",
+    "english": "English",
+    "spanishLevel": "Native",
+    "englishLevel": "Intermediate"
   },
   "strengths": {
-    "title": "Strengths",
+    "title": "Competencies",
     "technicalSkills": {
-      "title": "Technical Skills",
-      "description": "Proficient in modern technology stack"
+      "title": "Self-learning",
+      "description": "Ability to acquire new knowledge independently, adapting to technological and methodological changes."
     },
     "communicationSkills": {
-      "title": "Communication Skills",
-      "description": "Ability to articulate technical problems"
+      "title": "Effective Communication Skills",
+      "description": "Ability to convey ideas clearly and concisely."
     },
     "entrepreneurialSpirit": {
-      "title": "Entrepreneurial Spirit",
-      "description": "Willing to take end-to-end ownership"
+      "title": "Leadership",
+      "description": "Ability to motivate, organize, and guide teams toward achieving objectives with efficiency and commitment."
     },
     "teamWork": {
-      "title": "Team work",
-      "description": "Ability to collaborate effectively with others to achieve common goals"
+      "title": "Teamwork",
+      "description": "Ability to collaborate effectively with different professional profiles, fostering an environment of cooperation and communication."
+    },
+    "problemSolving": {
+      "title": "Problem-solving",
+      "description": "Ability to identify and resolve issues effectively using agile methodologies and problem-solving techniques."
+    },
+    "knowledgeTransfer": {
+      "title": "Passion for Teaching",
+      "description": "Enthusiasm for sharing knowledge, training others, and fostering professional development within a team or community."
     }
   },
   "keyboardManager": {
@@ -84,7 +94,7 @@
           "print": "Print"
         },
         "language": {
-          "title": "Switch language"
+          "title": "Change language"
         }
       }
     }

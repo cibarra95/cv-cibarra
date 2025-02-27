@@ -21,9 +21,9 @@ const experiences = computed((): ExperienceItem[] => {
     {
       company: 'Premo',
       website: 'https://www.premo.com/',
-      location: t('common.label.remote'),
+      location: t('common.label.office'),
       position: 'Senior FrontEnd Lead Developer',
-      time: '2022 - 2024',
+      time: '09/2022 - 11/2023',
       description: t('workExperience.works.premo.description'),
     },
     {
@@ -31,7 +31,7 @@ const experiences = computed((): ExperienceItem[] => {
       website: 'https://www.devsalsa.com/',
       location: t('common.label.remote'),
       position: 'FrontEnd Developer',
-      time: '2022 - 2024',
+      time: '08/2021 - 09/2022',
       description: t('workExperience.works.devsalsa.description'),
     },
   ];
@@ -39,8 +39,8 @@ const experiences = computed((): ExperienceItem[] => {
 </script>
 
 <template>
-  <section class="flex flex-col gap-y-3">
-    <h2 class="text-xl font-bold">
+  <section class="flex flex-col gap-y-5">
+    <h2 class="text-xl font-bold ">
       {{ t('workExperience.title') }}
     </h2>
     <WorkExperienceItem

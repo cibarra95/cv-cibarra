@@ -6,17 +6,26 @@ defineOptions({
 const skills = [
   'HTML',
   'CSS/SASS',
+  'Figma',
   'TailwindCSS',
   'JavaScript',
   'TypeScript',
   'Vue/Nuxt',
+  'Astro',
   'Webpack/Vite',
   'Cypress',
   'Jest/Vitest',
+  'Eslint/Prettier',
   'NodeJs',
   'PHP/Laravel',
+  'GraphQL/REST API',
   'Git',
+  'Github',
+  'Gitlab',
+  'GitHub Actions/GitLab CI',
   'Vercel',
+  'Docker',
+  'Kubernetes',
 ];
 
 const { t } = useI18n();
@@ -31,8 +40,8 @@ const { t } = useI18n();
       <UBadge
         v-for="(skill, index) in skills"
         :key="index"
-        color="primary"
-        variant="outline"
+        color="neutral"
+        variant="subtle"
         size="sm"
       >
         {{ skill }}

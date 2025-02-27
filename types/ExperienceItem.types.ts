@@ -1,6 +1,6 @@
 export interface ExperienceItem {
   company: string;
-  website?: string;
+  website: string;
   location: string;
   position: string;
   time: string;

@@ -27,6 +27,16 @@ const strengths = computed(() => {
       title: t('strengths.teamWork.title'),
       description: t('strengths.teamWork.description'),
     },
+    {
+      id: 5,
+      title: t('strengths.problemSolving.title'),
+      description: t('strengths.problemSolving.description'),
+    },
+    {
+      id: 6,
+      title: t('strengths.knowledgeTransfer.title'),
+      description: t('strengths.knowledgeTransfer.description'),
+    },
   ];
 });
 </script>
@@ -43,7 +53,7 @@ const strengths = computed(() => {
         </div>
       </div>
       <div
-        class="mt-2 font-mono text-sm text-pretty text-gray-500 dark:text-gray-400"
+        class="mt-2 font-mono text-xs text-pretty text-gray-500 dark:text-gray-400"
       >
         {{ strength.description }}
       </div>
