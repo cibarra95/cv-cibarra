@@ -40,7 +40,9 @@ defineOgImageComponent('CustomTemplate', {
     <main
         class="md:p-16 mx-auto overflow-auto p-4 print:p-12 relative scroll-my-12"
     >
-      <NuxtPage />
+      <UApp>
+        <NuxtPage />
+      </UApp>
     </main>
     </Body>
     </Html>
