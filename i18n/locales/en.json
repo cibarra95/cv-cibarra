@@ -4,6 +4,14 @@
       "remote": "Remote",
       "office": "On-site",
       "mexico": "Mexico"
+    },
+    "colorMode": {
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "language": {
+      "spanish": "Español",
+      "english": "English"
     }
   },
   "seo": {

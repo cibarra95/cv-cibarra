@@ -4,6 +4,14 @@
       "remote": "Remoto",
       "office": "En oficina",
       "mexico": "México"
+    },
+    "colorMode": {
+      "light": "Claro",
+      "dark": "Oscuro"
+    },
+    "language": {
+      "spanish": "Español",
+      "english": "English"
     }
   },
   "seo": {
@@ -12,7 +20,6 @@
   },
   "intro": {
     "summary": "Desarrollador de software adaptable y apasionado por la tecnología, con experiencia en frontend y fullstack. Especialista en SCRUM, interfaces intuitivas y optimización UX. Analítico y resolutivo, enfocado en crear soluciones innovadoras y eficientes para el desarrollo digital."
-
   },
   "about": {
     "title": "Resumen",
@@ -99,5 +106,5 @@
         }
       }
     }
-  },
+  }
 }

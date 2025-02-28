@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 defineOptions({
   name: 'Skills',
 });
@@ -41,13 +41,11 @@ const { t } = useI18n();
         v-for="(skill, index) in skills"
         :key="index"
         color="neutral"
-        variant="subtle"
         size="sm"
+        variant="soft"
       >
         {{ skill }}
       </UBadge>
     </div>
   </section>
 </template>
-
-

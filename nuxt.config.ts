@@ -16,29 +16,25 @@ export default defineNuxtConfig({
   ],
   modules: [
     // https://nuxt.com/modules/ui
-    '@nuxt/ui',
-    // https://nuxt.com/modules/image
-    '@nuxt/image',
-    // https://nuxt.com/modules/i18n
-    '@nuxtjs/i18n',
-    // https://nuxt.com/modules/og-image
+    '@nuxt/ui', // https://nuxt.com/modules/image
+    '@nuxt/image', // https://nuxt.com/modules/i18n
+    '@nuxtjs/i18n', // https://nuxt.com/modules/og-image
     'nuxt-og-image',
+    '@vueuse/nuxt',
   ],
   css: ['~/assets/css/main.css'],
   i18n: {
-    lazy: true,
+    lazy: false,
     langDir: 'locales',
     strategy: 'no_prefix',
     locales: [
       {
         code: 'en',
-        iso: 'en-US',
         name: 'English',
         file: 'en.json',
       },
       {
         code: 'es',
-        iso: 'es-MX',
         name: 'Español',
         file: 'es.json',
       },

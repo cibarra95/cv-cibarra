@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 defineOptions({
   name: 'Index',
 });
@@ -15,10 +15,7 @@ defineOptions({
       <Strengths />
       <Languages />
     </div>
-    <KeyboardManager />
   </section>
 </template>
 
-<style scoped lang="scss">
-
-</style>
+<style lang="scss" scoped></style>
