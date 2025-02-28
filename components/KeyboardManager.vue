@@ -76,9 +76,6 @@ function setLanguage(locale: LocaleObject) {
 function onOpenCommandPalette() {
   console.log('onOpenCommandPalette', isOpen.value);
   isOpen.value = true;
-  nextTick(() => {
-    commandPaletteRef.value?.focus(); // Asegurar que el modal recibe foco
-  });
 }
 </script>
 

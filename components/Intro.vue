@@ -36,7 +36,7 @@ const socialLinks = [
 
 <template>
   <div class="flex items-center justify-between space-x-5">
-    <div class="flex-1 space-y-1.5 ">
+    <div class="flex-1 space-y-2.5">
       <h1 class="text-2xl font-bold">César Ibarra</h1>
       <p
           class="max-w-md font-mono text-xs lg:text-sm text-gray-500 text-pretty dark:text-gray-400 text-justify"
@@ -59,7 +59,7 @@ const socialLinks = [
         </ULink>
       </p>
       <div
-          class="flex print:hidden gap-x-1 pt-1 font-mono text-sm text-gray-500 dark:text-gray-400"
+          class="flex print:hidden gap-x-2 pt-1 font-mono text-sm text-gray-500 dark:text-gray-400"
       >
         <UButton
             v-for="link in socialLinks"
@@ -68,6 +68,7 @@ const socialLinks = [
             target="_blank"
             color="neutral"
             variant="soft"
+            size="lg"
         >
           <template #leading>
             <UIcon
