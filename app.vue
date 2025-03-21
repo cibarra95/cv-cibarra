@@ -20,6 +20,27 @@ useHead({
     lang,
     dir,
   },
+  meta: [
+    {
+      name: 'description',
+      content:
+        'Online CV of Cesar Ibarra Jimenez, Frontend Developer specializing in Nuxt.js, Tailwind CSS, and modern web development.',
+    },
+    {
+      name: 'keywords',
+      content:
+        'Cesar Ibarra Jimenez, cibarra, frontend developer, Nuxt, Tailwind, CV, web developer',
+    },
+    {
+      property: 'og:title',
+      content: 'Cesar Ibarra Jimenez | Frontend Developer',
+    },
+    {
+      property: 'og:description',
+      content: 'Explore the online CV and portfolio of Cesar Ibarra Jimenez.',
+    },
+    { property: 'og:url', content: 'https://www.cibarra.dev' },
+  ],
 });
 
 useSeoMeta({
@@ -39,6 +60,10 @@ defineOgImageComponent('CustomTemplate', {
   <UApp>
     <Html>
       <Head>
+        <meta
+          content="JoKrz9s2bSHW7isBrQVGqTd4P-uC8PXkjTsJwf0OxxU"
+          name="google-site-verification"
+        />
         <Title>{{ t('seo.title') }}</Title>
         <template v-for="link in head.link" :key="link.id">
           <Link

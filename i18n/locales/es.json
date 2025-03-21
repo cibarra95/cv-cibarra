@@ -15,7 +15,7 @@
     }
   },
   "seo": {
-    "title": "Mi CV {'|'} César Ibarra - FrontEnd Developer",
+    "title": "Mi CV {'|'} César Ibarra Jiménez - FrontEnd Developer",
     "description": "Un CV digital"
   },
   "intro": {
@@ -23,7 +23,7 @@
   },
   "about": {
     "title": "Resumen",
-    "text": "Soy un desarrollador frontend senior con amplia experiencia en tecnologías como Vue.js, React, Nuxt.js y Tailwind CSS, así como en desarrollo fullstack utilizando TypeScript, GraphQL y Laravel. Mi trayectoria profesional se ha centrado en la creación de interfaces intuitivas y optimizadas, la implementación de pruebas automatizadas con Cypress, Vitest y Jest, y la adopción de metodologías ágiles como SCRUM para garantizar la eficiencia en el desarrollo de software.",
+    "text": "Soy un desarrollador frontend semi-senior con amplia experiencia en tecnologías como Vue.js, React, Nuxt.js y Tailwind CSS, así como en desarrollo fullstack utilizando TypeScript, GraphQL y Laravel. Mi trayectoria profesional se ha centrado en la creación de interfaces intuitivas y optimizadas, la implementación de pruebas automatizadas con Cypress, Vitest y Jest, y la adopción de metodologías ágiles como SCRUM para garantizar la eficiencia en el desarrollo de software.",
     "skills": "Me caracterizo por ser una persona analítica, adaptable y con una fuerte vocación por la enseñanza, el trabajo en equipo y la resolución de problemas. Mi objetivo es continuar creciendo en el ámbito del desarrollo tecnológico, aportando soluciones innovadoras y eficientes que contribuyan al éxito de los proyectos en los que participo."
   },
   "workExperience": {
@@ -105,6 +105,19 @@
           "title": "Cambiar idioma"
         }
       }
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "easyVisit": {
+      "title": "Easy Visit",
+      "description": "Estoy desarrollando EasyVisit, una plataforma de gestión de accesos para comunidades residenciales. Estoy construyendo una aplicación web responsiva con Nuxt.js, Tailwind CSS y TypeScript, optimizando la interfaz y la experiencia de usuario. He integrado múltiples servicios backend mediante Fetch API.",
+      "app": "También estoy desarrollando una aplicación móvil en Flutter para iOS y Android, que permite el acceso mediante códigos QR, monitoreo en tiempo real y gestión de visitantes, mejorando la seguridad y la eficiencia."
+    },
+    "dondeCafe": {
+      "title": "Donde Café",
+      "description": "Estoy desarrollando DondeCafé, una plataforma para reseñar y filtrar cafeterías según los servicios que ofrecen. Estoy construyendo una aplicación web responsiva utilizando Nuxt.js, Tailwind CSS y Nuxt UI, asegurando una experiencia de usuario intuitiva.",
+      "app": "He integrado Supabase como backend para gestionar las reseñas generadas por los usuarios y la autenticación, lo que permite una administración de datos fluida. Estoy optimizando la interfaz y la experiencia de usuario para facilitar la búsqueda y calificación de cafeterías de manera eficiente."
     }
   }
 }

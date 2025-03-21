@@ -1,3 +1,20 @@
+<script lang="ts" setup>
+defineOptions({
+  name: 'CustomTemplate',
+});
+
+withDefaults(
+  defineProps<{
+    title?: string;
+    description?: string;
+  }>(),
+  {
+    title: 'César Ibarra Jiménez',
+    description: 'description',
+  },
+);
+</script>
+
 <template>
   <div class="h-full w-full flex items-start justify-start bg-white relative">
     <div class="flex flex-col p-16">
@@ -10,9 +27,9 @@
     </div>
     <svg
       class="absolute bottom-0 left-0 right-0"
+      height="627"
       viewBox="0 0 1200 627"
       width="1200"
-      height="627"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
@@ -24,22 +41,5 @@
     </svg>
   </div>
 </template>
-
-<script setup lang="ts">
-defineOptions({
-  name: 'CustomTemplate',
-});
-
-withDefaults(
-  defineProps<{
-    title?: string;
-    description?: string;
-  }>(),
-  {
-    title: 'title',
-    description: 'description',
-  },
-);
-</script>
 
 <style lang="scss" scoped></style>

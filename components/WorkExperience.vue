@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import { computed } from 'vue';
 import type { ExperienceItem } from '~/types/ExperienceItem.types';
 
@@ -14,7 +14,7 @@ const experiences = computed((): ExperienceItem[] => {
       company: 'Topfluenz',
       website: 'https://www.toplfuenz.com/',
       location: t('common.label.remote'),
-      position: 'Senior FrontEnd Developer',
+      position: 'Semi-senior FrontEnd Developer',
       time: t('workExperience.time.topfluenz.lapse'),
       description: t('workExperience.works.topfluenz.description'),
     },
@@ -22,7 +22,7 @@ const experiences = computed((): ExperienceItem[] => {
       company: 'Premo',
       website: 'https://www.premo.com/',
       location: t('common.label.office'),
-      position: 'Senior FrontEnd Lead Developer',
+      position: 'Fullstack Developer',
       time: '09/2022 - 11/2023',
       description: t('workExperience.works.premo.description'),
     },
@@ -30,7 +30,7 @@ const experiences = computed((): ExperienceItem[] => {
       company: 'Devsalsa',
       website: 'https://www.devsalsa.com/',
       location: t('common.label.remote'),
-      position: 'FrontEnd Developer',
+      position: 'Junior FrontEnd Developer',
       time: '08/2021 - 09/2022',
       description: t('workExperience.works.devsalsa.description'),
     },
@@ -40,7 +40,7 @@ const experiences = computed((): ExperienceItem[] => {
 
 <template>
   <section class="flex flex-col gap-y-5">
-    <h2 class="text-xl font-bold ">
+    <h2 class="text-xl font-bold">
       {{ t('workExperience.title') }}
     </h2>
     <WorkExperienceItem
@@ -50,5 +50,3 @@ const experiences = computed((): ExperienceItem[] => {
     />
   </section>
 </template>
-
-
