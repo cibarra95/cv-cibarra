@@ -23,7 +23,7 @@
   },
   "about": {
     "title": "Summary",
-    "text": "I am a senior frontend developer with extensive experience in technologies such as Vue.js, React, Nuxt.js, and Tailwind CSS, as well as fullstack development using TypeScript, GraphQL, and Laravel. My professional career has been focused on creating intuitive and optimized interfaces, implementing automated testing with Cypress, Vitest, and Jest, and adopting agile methodologies like SCRUM to ensure efficiency in software development.",
+    "text": "I am a semi-senior frontend developer with extensive experience in technologies such as Vue.js, React, Nuxt.js, and Tailwind CSS, as well as fullstack development using TypeScript, GraphQL, and Laravel. My professional career has been focused on creating intuitive and optimized interfaces, implementing automated testing with Cypress, Vitest, and Jest, and adopting agile methodologies like SCRUM to ensure efficiency in software development.",
     "skills": "I am known for being an analytical, adaptable person with a strong passion for teaching, teamwork, and problem-solving. My goal is to continue growing in the field of technological development, providing innovative and efficient solutions that contribute to the success of the projects I participate in."
   },
   "workExperience": {
@@ -105,6 +105,19 @@
           "title": "Change language"
         }
       }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "easyVisit": {
+      "title": "Easy Visit",
+      "description": "Developing EasyVisit, an access management platform for residential communities. Building a responsive web application using Nuxt.js, Tailwind CSS, and TypeScript, optimizing interface and user experience. Integrated multiple backend services using the Fetch API.",
+      "app": "Also developing a mobile application in Flutter for iOS and Android, enabling QR code access, real-time monitoring, and visitor management, improving security and efficiency."
+    },
+    "dondeCafe": {
+      "title": "Donde Café",
+      "description": "Developing DondeCafé, a platform for reviewing and filtering coffee shops based on the services they offer. Building a responsive web application using Nuxt.js, Tailwind CSS, and Nuxt UI, ensuring an intuitive user experience.",
+      "app": "Integrated Supabase as the backend for managing user-generated reviews and authentication, enabling smooth data management. Optimizing interface and user experience for efficient coffee shop discovery and rating."
     }
   }
 }
