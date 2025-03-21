@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       bodyAttrs: {
-        class: 'antialiased font-display ',
+        class: 'antialiased font-display',
       },
     },
   },

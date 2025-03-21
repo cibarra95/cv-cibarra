@@ -22,6 +22,10 @@ useHead({
   },
   meta: [
     {
+      name: 'google-site-verification',
+      content: 'JoKrz9s2bSHW7isBrQVGqTd4P-uC8PXkjTsJwf0OxxU',
+    },
+    {
       name: 'description',
       content:
         'Online CV of Cesar Ibarra Jimenez, Frontend Developer specializing in Nuxt.js, Tailwind CSS, and modern web development.',
