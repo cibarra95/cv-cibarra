@@ -41,7 +41,7 @@ export default defineNuxtConfig({
       },
     ],
     defaultLocale: 'en',
-    vueI18n: './i18n.config.ts',
+    vueI18n: 'i18n.config.ts',
     baseUrl: 'https://cibarra.dev',
   },
   site: {
