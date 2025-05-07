@@ -14,7 +14,7 @@ const experiences = computed((): ExperienceItem[] => {
       company: 'Topfluenz',
       website: 'https://www.toplfuenz.com/',
       location: t('common.label.remote'),
-      position: 'Semi-senior FrontEnd Developer',
+      position: 'FrontEnd Developer',
       time: t('workExperience.time.topfluenz.lapse'),
       description: t('workExperience.works.topfluenz.description'),
     },
