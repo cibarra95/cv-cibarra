@@ -81,10 +81,7 @@ const socialLinks = [
     </div>
 
     <div class="relative print:hidden flex overflow-hidden rounded-xl size-28">
-      <NuxtImg
-        alt="César Ibarra"
-        src="https://media.licdn.com/dms/image/v2/C4E03AQHgexMDzm6cPg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1576527463302?e=1745452800&v=beta&t=-59nOFNJnEm6Z_-EscP3coRzr1GYa27FxC2vE9iyuVg"
-      />
+      <NuxtImg alt="César Ibarra" src="cibarra.png" />
     </div>
   </div>
 </template>
