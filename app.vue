@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import * as locales from '@nuxt/ui/locale';
 import { Analytics } from '@vercel/analytics/nuxt';
+import { SpeedInsights } from '@vercel/speed-insights/nuxt';
 
 defineOptions({
   name: 'App',
@@ -70,6 +71,7 @@ defineOgImageComponent('CustomTemplate', {
           name="google-site-verification"
         />
         <Analytics />
+        <SpeedInsights />
         <Title>{{ t('seo.title') }}</Title>
         <template v-for="link in head.link" :key="link.id">
           <Link
