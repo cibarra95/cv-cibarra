@@ -16,12 +16,12 @@ export default defineNuxtConfig({
     },
   ],
   modules: [
-    // https://nuxt.com/modules/ui
-    '@nuxt/ui', // https://nuxt.com/modules/image
-    '@nuxt/image', // https://nuxt.com/modules/i18n
-    '@nuxtjs/i18n', // https://nuxt.com/modules/og-image
+    '@nuxt/ui',
+    '@nuxt/image',
+    '@nuxtjs/i18n',
     'nuxt-og-image',
     '@vueuse/nuxt',
+    'nuxt-gtag',
   ],
   css: ['~/assets/css/main.css'],
   i18n: {
@@ -43,6 +43,12 @@ export default defineNuxtConfig({
     defaultLocale: 'en',
     vueI18n: 'i18n.config.ts',
     baseUrl: 'https://cibarra.dev',
+  },
+  gtag: {
+    id: 'GTM-M7XTCK22',
+    config: {
+      page_title: 'César Ibarra CV',
+    },
   },
   site: {
     url: 'https://cibarra.dev',
