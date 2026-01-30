@@ -29,6 +29,9 @@
   "workExperience": {
     "title": "Experiencia Laboral",
     "works": {
+      "ditech": {
+        "description": "Desarrollo y mantenimiento de aplicaciones empresariales en un monorepo Nx utilizando Angular 19, TypeScript y PrimeNG 19. Implementación de interfaces UX/UI basadas en Figma con Tailwind CSS, manejo de estados complejos, formularios reactivos y componentes reutilizables. Integración de APIs REST, control de roles y permisos, paginación y filtros avanzados. Trabajo colaborativo bajo metodologías ágiles (SCRUM), control de calidad con ESLint/SonarQube y despliegues mediante Azure DevOps Pipelines."
+      },
       "topfluenz": {
         "description": "Desarrollo e implementación de interfaces UX/UI basadas en Figma con Vue.js, Vite, TypeScript y Tailwind CSS. Integración de APIs GraphQL con Vue Apollo y pruebas automatizadas con Cypress y Vitest. Creación de Landing Pages en Nuxt 3 y trabajo en entornos ágiles con SCRUM."
       },
@@ -40,14 +43,14 @@
       }
     },
     "time": {
-      "topfluenz": {
-        "lapse": "01/2024 - Actual"
+      "ditech": {
+        "lapse": "05/2025 - Actual"
       }
     }
   },
   "education": {
     "title": "Educación",
-    "school": "INESDI Business School",
+    "school": "INESDI Business Techschool",
     "career": "Máster en Full Stack Web Development",
     "schoolTwo": "Universidad Iberoamericana León",
     "careerTwo": "Ingeniería Mecatrónica",
