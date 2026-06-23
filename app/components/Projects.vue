@@ -9,17 +9,17 @@ const projects = computed(() => {
   return [
     {
       id: 1,
-      title: t('projects.easyVisit.title'),
-      description: t('projects.easyVisit.description'),
-      app: t('projects.easyVisit.app'),
-      to: 'https://www.linkedin.com/company/easyvisitmx/',
-    },
-    {
-      id: 2,
       title: t('projects.dondeCafe.title'),
       description: t('projects.dondeCafe.description'),
       app: t('projects.dondeCafe.app'),
       to: 'https://dondecafe.com/',
+    },
+    {
+      id: 2,
+      title: t('projects.easyVisit.title'),
+      description: t('projects.easyVisit.description'),
+      app: t('projects.easyVisit.app'),
+      to: 'https://www.linkedin.com/company/easyvisitmx/',
     },
   ];
 });

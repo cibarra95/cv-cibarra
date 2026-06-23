@@ -1,18 +1,20 @@
 <script lang="ts" setup>
+import type { PropType } from 'vue';
+
 defineOptions({
   name: 'CustomTemplate',
 });
 
-withDefaults(
-  defineProps<{
-    title?: string;
-    description?: string;
-  }>(),
-  {
-    title: 'César Ibarra Jiménez',
-    description: 'description',
+defineProps({
+  title: {
+    type: String as PropType<string | undefined>,
+    default: 'César Ibarra Jiménez',
   },
-);
+  description: {
+    type: String as PropType<string | undefined>,
+    default: 'description',
+  },
+});
 </script>
 
 <template>
