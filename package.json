@@ -16,20 +16,19 @@
   },
   "dependencies": {
     "@iconify-json/fa6-brands": "^1.2.1",
+    "@iconify-json/lucide": "^1.2.72",
     "@iconify-json/ph": "^1.2.1",
     "@nuxt/image": "^1.8.1",
-    "@nuxt/ui": "3.0.1",
-    "@nuxtjs/i18n": "9.3.3",
+    "@nuxt/ui": "^3.0.1",
+    "@nuxtjs/i18n": "^9.3.3",
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "@vueuse/nuxt": "12.7.0",
-    "nuxt": "^3.16.1",
+    "nuxt": "4.4.4",
     "nuxt-gtag": "3.0.2",
-    "nuxt-og-image": "^5.0.5",
-    "vue": "3.5.13"
+    "nuxt-og-image": "^5.0.5"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "3.5.13",
     "@iconify-json/circle-flags": "^1.2.6",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@typescript-eslint/parser": "^7.3.0",
@@ -39,9 +38,8 @@
     "prettier": "^3.3.3",
     "typescript": "^5.6.2"
   },
-  "resolutions": {
-    "vue": "3.5.13",
-    "@vue/compiler-sfc": "3.5.13"
+  "engines": {
+    "node": ">=22.0.0"
   },
   "packageManager": "yarn@4.9.1"
 }
