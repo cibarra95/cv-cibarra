@@ -56,7 +56,7 @@ useSeoMeta({
   ogDescription: t('seo.description'),
 });
 
-defineOgImageComponent('CustomTemplate', {
+defineOgImage('CustomTemplate', {
   title: t('seo.title'),
   description: t('seo.description'),
 });
